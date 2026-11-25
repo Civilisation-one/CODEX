@@ -3,7 +3,8 @@
 **Document ID:** CV1-PLATFORM-CODEX-001  
 **Version:** 1.0  
 **Date:** 14 November 2026  
-**Status:** Foundational team reference  
+**Document status:** PROPOSED (previously labelled “Foundational team reference”; moves to ACCEPTED only by maintainer decision)  
+**Related:** [CV1-PLATFORM-CODEX-003](CV1-PLATFORM-CODEX-003.md), [CV1-PLATFORM-CODEX-002](CV1-PLATFORM-CODEX-002.md) (read 003 → 001 → 002; see [README](README.md))  
 **Platform:** Civilisation.One / OUUM  
 **Repository:** `Civilisation-one/CODEX`
 
@@ -603,6 +604,8 @@ The objective is not to centralise intelligence. It is to make distributed intel
 
 - **Document ID:** CV1-PLATFORM-CODEX-001
 - **Version:** 1.0
+- **Document status:** PROPOSED
+- **Related:** CV1-PLATFORM-CODEX-003 (purpose), CV1-PLATFORM-CODEX-002 (engineering hardening specification)
 - **Owner:** Civilisation.One platform governance / authorised maintainers
 - **Review trigger:** material architecture, governance, security or evidence-policy change
 - **Change policy:** revise by reviewed, traceable commit; retain prior versions in repository history

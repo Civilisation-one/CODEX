@@ -1,11 +1,14 @@
 # CIV1-HARDENING-001
 ## Persistence, Operational Readiness & Production Integration
 
+**Document ID:** CV1-PLATFORM-CODEX-002  
+**Spec ID:** CIV1-HARDENING-001  
 **Organisation:** Civilisation.One  
-**Repository:** `Civilisation-one/civ-intelligence-layer`  
+**Canonical text:** `Civilisation-one/CODEX`; **implemented in:** `Civilisation-one/civ-intelligence-layer`  
 **Specification type:** Engineering implementation and acceptance specification  
 **Priority:** Critical platform hardening  
-**Status:** Proposed — requires developer review and approval  
+**Document status:** PROPOSED — requires developer review and approval  
+**Related:** [CV1-PLATFORM-CODEX-003](CV1-PLATFORM-CODEX-003.md), [CV1-PLATFORM-CODEX-001](CV1-PLATFORM-CODEX-001.md) (read 003 → 001 → 002; see [README](README.md))  
 **Version:** 1.0  
 **Date:** 18 November 2026
 
@@ -578,7 +581,7 @@ Requirements:
 
 ## H4.4 RAG
 
-RAG retrieval and citation operations remain disabled until the relevant WP-03 security acceptance is independently demonstrated.
+RAG retrieval and citation operations remain disabled until the H4.4/H4.5 RAG security acceptance is independently demonstrated.
 
 Required tests:
 
@@ -607,6 +610,8 @@ Required tests:
 # 8. Proposed Repository Structure
 
 The following is a target logical structure. Developers must compare it with the actual repository and reuse existing packages rather than create duplicate implementations.
+
+> **Illustrative layout, not a file list.** `civ-intelligence-layer` already has a `contracts/src/` tree (for example `audit.ts`, `types.ts`, `rag.ts`, `gate.ts`, `store.ts`). Inspect that tree first; extend existing contracts rather than creating parallel files with the same responsibilities.
 
 ```text
 civ-intelligence-layer/
@@ -906,3 +911,16 @@ The governing platform principle remains:
 **VIREÁX coordinates intelligence. Member nodes retain sovereignty. Evidence establishes confidence.**
 
 **End of specification.**
+
+---
+
+## Document control
+
+- **Document ID:** CV1-PLATFORM-CODEX-002 (spec ID CIV1-HARDENING-001)
+- **Version:** 1.0
+- **Document status:** PROPOSED
+- **Owner:** Civilisation.One platform governance / authorised maintainers
+- **Related:** CV1-PLATFORM-CODEX-003 (purpose), CV1-PLATFORM-CODEX-001 (invariants and evidence rules)
+- **Review trigger:** material change to persistence, operations, integration or security requirements
+- **Change policy:** revise by reviewed, traceable pull request; retain prior versions in repository history
+- **Status note:** this specification states requirements and acceptance criteria. It is not evidence that any of them are implemented.
