@@ -3,7 +3,8 @@
 **Document ID:** CV1-PLATFORM-CODEX-003  
 **Version:** 1.0  
 **Date:** 24 November 2026  
-**Status:** Foundational statement of purpose — proposed  
+**Document status:** PROPOSED — foundational statement of purpose  
+**Related:** [CV1-PLATFORM-CODEX-001](CV1-PLATFORM-CODEX-001.md), [CV1-PLATFORM-CODEX-002](CV1-PLATFORM-CODEX-002.md) (read 003 → 001 → 002; see [README](README.md))  
 **Platform:** Civilisation.One  
 **Repository:** `Civilisation-one/CODEX`
 
@@ -114,3 +115,16 @@ It aims to become a civilisational coordination infrastructure connecting:
 - Economic and resource networks.
 - Artificial intelligence.
 - Distributed knowledge and decision-making.
+
+---
+
+## Document control
+
+- **Document ID:** CV1-PLATFORM-CODEX-003
+- **Version:** 1.0
+- **Document status:** PROPOSED
+- **Owner:** Civilisation.One platform governance / authorised maintainers
+- **Related:** CV1-PLATFORM-CODEX-001 (invariants and evidence rules), CV1-PLATFORM-CODEX-002 (engineering hardening specification)
+- **Review trigger:** change to the platform's stated purpose or to the human-sovereignty constraint
+- **Change policy:** revise by reviewed, traceable pull request; retain prior versions in repository history
+- **Status note:** this is a statement of purpose. It is not evidence that anything described is implemented.
